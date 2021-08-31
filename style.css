@@ -1,0 +1,150 @@
+/* Global */
+
+body {
+	font-family: arial, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* nav bar section */
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 150px;
+	padding-top: .8em;
+	flex-wrap: wrap;
+}
+
+ul a {
+	font-size: .8em;
+	color: black;
+}
+
+ul a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+ul button {
+	background-color: #4285f4;
+	color: white;
+	padding: 7px 14px;
+	border: none;
+	font-weight: bold;
+}
+
+.left-opt {
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.right-opt {
+	width: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+/* logo and searchbar section */
+
+.main-sec {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 532px;
+}
+
+.main-sec img {
+	width: 292px;
+	margin-bottom: 25px;
+}
+
+.main-sec input {
+	width: 500px;
+	margin-bottom: 25px;
+	border-radius: 20px;
+	border: 1px solid lightgray;
+	padding: 13px 45px;
+	background: url(images/outline_search_black_24dp.png) left no-repeat;
+	background-position: 15px;
+}
+
+
+.main-sec input:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);
+}
+
+.main-sec input:hover {
+	box-shadow: 0px 0px 5px 5px rgb(240, 240, 240);
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+}
+
+.btn .search-btn,.lucky-btn {
+	margin-right: 15px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: .7;
+}
+
+.lucky-btn:hover,.search-btn:hover {
+	outline: 1px solid gray;
+}
+
+/* Footer section */
+
+footer {
+	display: flex;
+	background-color: rgb(240, 240, 240);
+	height: 45px;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	border:  1px solid lightgray;
+}
+
+footer a {
+	font-size: .9em;
+	color: dimgray;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer .left-foot {
+	margin-left: 30px;
+	width: 275px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .right-foot {
+	margin-right: 30px;
+	width: 175px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
